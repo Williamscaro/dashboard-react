@@ -8,7 +8,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">AI Logic Dashboard</span>
+          <span className="logo">AI Logic</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
