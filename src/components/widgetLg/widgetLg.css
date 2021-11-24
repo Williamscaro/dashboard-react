@@ -1,0 +1,74 @@
+.widgetLg {
+  flex: 2;
+  box-shadow: 0px 1px 8px 6px rgba(106, 106, 151, 0.44);
+  -webkit-box-shadow: 0px 1px 8px 6px rgba(106, 106, 151, 0.44);
+  -moz-box-shadow: 0px 1px 8px 6px rgba(106, 106, 151, 0.44);
+  padding: 20px;
+  border-radius: 2%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  -webkit-border-radius: 4%;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+.widgetLgTh {
+  text-align: left;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 14px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.widgetLgdate,
+.widgetLgAverage {
+  font-weight: 300;
+}
+
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.widgetLgButton.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.widgetLgButton.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+
+.widgetLgButton.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}

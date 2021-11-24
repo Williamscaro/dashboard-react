@@ -1,10 +1,5 @@
 export const userData = [
   {
-    name: "Null",
-    "Complete Asigments": 10,
-    members: 0,
-  },
-  {
     name: "Beta",
     "Complete Asigments": 7,
     members: 7,
